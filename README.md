@@ -39,6 +39,8 @@ This file helps us to read , write and update various json files as and when req
 
 The framework used:express
 Template:pug
+Backend:Sql
+JSON files are also used for information retreival.
 This project has made use of promises for sql queries.
 fs module is used for file reading.
 formidable module is used to retrieve the uploaded files through forms.
