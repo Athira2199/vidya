@@ -35,3 +35,10 @@ This file helps us to make a new folder.
 5.	news.js
 This file helps us to read , write and update various json files as and when required in the project.
 
+
+
+The framework used:express
+Template:pug
+This project has made use of promises for sql queries.
+fs module is used for file reading.
+formidable module is used to retrieve the uploaded files through forms.
