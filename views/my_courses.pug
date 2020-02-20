@@ -1,0 +1,15 @@
+html
+    style
+        include ./include/courses.css
+    body
+        h1 YOUR COURSES
+        if(details==0)
+            div(class="no_course")
+                label no courses
+        else
+            each val in details
+                div(class="container")
+                    label(class="name")=val['name']
+                    label(class="professor")=val['professor']
+                    form(action="/info/"+val['id'])     
+                        button(type='submit' class='info') INFO

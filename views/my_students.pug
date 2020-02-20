@@ -1,0 +1,14 @@
+html
+    style
+        include ./include/courses.css
+    body
+        h1 YOUR STUDENTS
+        if(details==0)
+            div(class="no_course")
+                label no students
+        else
+            each val in details
+                div(class="student")
+                    label= val['name']
+                    label= val['mailid']
+                    label= val['qualification']

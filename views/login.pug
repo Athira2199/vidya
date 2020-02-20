@@ -1,0 +1,17 @@
+html
+    include header.pug
+    style
+        include ./include/login.css
+    body
+        div(class="wrapper")
+            h1 
+                b 
+                    u LOG IN
+            div(class="container")
+                form(method='POST' action='/log' class="form")
+                    div
+                        input#name.form-control(type='text', placeholder='username' name='name')
+                    br
+                    div
+                        input#pw.form-control(type='password' name='password' placeholder='password')
+                    button(type='submit' class='button') Login

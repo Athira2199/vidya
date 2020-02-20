@@ -1,0 +1,21 @@
+{
+  "name": "vidyalay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "athira_v_ajit",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "pug": "^2.0.4",
+    "router": "^1.3.4",
+    "sqlite3": "^4.1.1"
+  }
+}

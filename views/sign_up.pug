@@ -1,0 +1,182 @@
+html
+    head
+        title add_student
+    style
+        include ./include/add_student.css
+    body
+        p 
+            h1
+                u WELCOME
+        div(class="details")
+            form(class="student" action="/signup/submit" method="POST")
+                table
+                    tr
+                        th
+                            label NAME  
+                        th
+                            input(
+                                type='text',
+                                name="name"
+                                class="text"
+                                required
+                            )
+                    tr
+                        th
+                            label MAIL ID
+                        th
+                            input(
+                                type='text',
+                                name="mailid"
+                                class="text"
+                                required
+                            )
+                    tr
+                        th
+                            label PASSWORD
+                        th
+                            input(
+                                type='text',
+                                name="password"
+                                class="text"
+                                required
+                            )
+                    tr
+                        th(class="rad")
+                            label GENDER
+                        th(class="rad")
+                        th
+                            input(
+                                type='radio',
+                                name="gender",
+                                value="MALE"
+                            )
+                        th(class="rad")
+                            label MALE
+                        th
+                            input(
+                                type='radio',
+                                name="gender",
+                                value="FEMALE"
+                            )
+                        th(class="rad")
+                            label FEMALE
+                        th
+                            input(
+                                type='radio',
+                                name="gender",
+                                vale="OTHERS"
+                            )
+                        th(class="rad")
+                            label OTHERS
+                    tr
+                        th
+                            label MOBILE NUMBER
+                        th
+                            input(
+                                type='text',
+                                name="mobile"
+                                class="text"
+                            )
+                    tr
+                        th
+                            label HIGHEST QUALIFICATION
+                        th
+                        th
+                            input(
+                                type='radio',
+                                name="qualification",
+                                value="UNDERGRADUATE"
+                            )
+                        th
+                            label UNDERGRADUATE
+                        th
+                            input(
+                                type='radio',
+                                name="qualification",
+                                value="DIPLOMA"
+                            )
+                        th
+                            label DIPLOMA
+                        th
+                            input(
+                                type='radio',
+                                name="qualification",
+                                value="GRADUATE"
+                            )
+                        th
+                            label GRADUATE
+                        th
+                            input(
+                                type='radio',
+                                name="qualification",
+                                value="MASTERS"
+                            )
+                        th
+                            label MASTERS
+                        th
+                            input(
+                                type='radio',
+                                name="qualification",
+                                value="Ph.D"
+                            )
+                        th
+                            label Ph.D
+                    tr
+                        th
+                            label INSTITUTION / COMPANY
+                        th
+                            input(
+                                type='text',
+                                name="institution"
+                                class="text"
+                            )
+                    tr
+                        th
+                            label ADDRESS LINE 1
+                        th
+                             input(
+                                type='text',
+                                name="al1"
+                                class="text"
+                            )
+                    tr
+                        th
+                            label ADDRESS LINE 2
+                        th
+                             input(
+                                type='text',
+                                name="al2"
+                                class="text"
+                            )
+                    tr
+                        th
+                            label CITY
+                        th
+                            input(
+                                type='text',
+                                name="city"
+                                class="text"
+                            )
+                    tr  
+                        th
+                            label STATE
+                        th
+                            input(
+                                type='text',
+                                name="state"
+                                class="text"
+                            )
+                    tr
+                        th
+                            label ZIP CODE
+                        th
+                            input(
+                                type='text',
+                                name="zip"
+                                class="text"
+                            )
+                    tr
+                        th
+                            button(type='submit' class='button') SIGN UP                            
+
+                

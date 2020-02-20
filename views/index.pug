@@ -1,0 +1,35 @@
+html
+    include header.pug
+    style
+        include ./include/index.css
+    body 
+        div(class="topnav")
+            a(href="index" class="button" ) VIDYALAY
+            a(href="signup" class="about" ) SIGN UP
+            a(href="login") LOG IN
+            a(href="admin") ADMIN
+            a(href="instructor") INSTRUCTOR
+        div(class="topnav")
+            p(class="slogan") 
+                i where shikhshyas meet gurus
+                a(class="explore" href="explore") EXPLORE
+        h2 OUR PARTNER INSTITUTES
+        div(class="container")
+            img(src="vit_vellore.jpg")
+            img(src="vit_chennai.jpg")
+            img(src="bits_pillani.jpg")
+            img(src="iit_madras.jpg")
+        p(class="etc")
+            i
+                a(href="institutes") and many more....
+        h2 OUR PILLARS OF STRENGTH
+        div(class="container")
+            img(class="pillars" src="person.png")
+            img(class="pillars" src="person.png")
+            img(class="pillars" src="person.png")
+        div
+            p
+            span(class="info_first")  Mr Kumar 
+            span(class="info") Mr Khan 
+            span(class="info") Mr George
+    include footer.pug

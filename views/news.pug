@@ -1,0 +1,18 @@
+html
+    style
+        include ./include/courses.css
+    body
+        div(class="topnav")
+            label(class="news") NEWS 
+            form(action="/add/news")
+                input(type='text',
+                    name="news"
+                    class="new"
+                    required)
+                button(type="submit" class="add") ADD
+        h1  TRENDING NOW .....
+        -for (var i=0;i<details.length;i++)
+            div(class="container")
+                label=details[i]['news']
+                form(action="/del/news/"+details[i]['id'])
+                    button(type='submit' class='del') DELETE

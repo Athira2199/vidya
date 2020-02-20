@@ -1,0 +1,26 @@
+html
+    style
+        include ./include/courses.css
+    body
+        div(class="topnav")
+            h1 COURSES
+        div(class="filter")
+            label FILTER
+            form(action="/filter")
+                select(class="exp_filter" name="type")
+                    option all
+                    option Engineering
+                    option Medicine
+                    option Humanities
+                    option Law
+                    option Literature
+                select(name="instructor")
+                    option all
+                    each val in l
+                        option=val
+                    //- each type in types
+                    //-     option=type
+                input(type='submit' value='APPLY' class="sub_filter")
+        -for (var i=0;i<name.length;i++)
+            div(class="container")
+                label=name[i]

@@ -1,0 +1,10 @@
+html
+    style
+        include ./include/courses.css
+    body
+        div(class="topnav")
+            label(class="news") FREQUENTLY ASKED QUESTIONS .....
+        -for (var i=0;i<faq.length;i++)
+            div(class="contain")
+                label(class="question")=faq[i]['question']
+                label(class="answer")=faq[i]['answer']

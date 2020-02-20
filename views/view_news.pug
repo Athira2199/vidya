@@ -1,0 +1,12 @@
+html
+    style
+        include ./include/courses.css
+    body
+        div(class="topnav")
+            label(class="news") NEWS 
+            label(class="welcome") 
+                i hello #{name}
+        h1  TRENDING NOW .....
+        -for (var i=0;i<details.length;i++)
+            div(class="container")
+                label=details[i]['news']

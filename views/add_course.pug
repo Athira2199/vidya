@@ -1,0 +1,91 @@
+html
+    head
+        title add_a_course
+    style
+        include ./include/add_student.css
+        include ./include/add_course.css
+    body
+        h1 
+            b 
+                u ADD COURSE
+            div
+                form(method='POST' action='/add/course/submit' class="course")
+                    table
+                        tr
+                            th(class="option") 
+                                label COURSE NAME
+                            th 
+                                input(
+                                type='text',
+                                name="username"
+                                class="text"
+                                required
+                            )
+                        tr
+                            th(class="option")
+                                label COURSE ID
+                            th
+                                input(
+                                    type='text',
+                                    name="courseid"
+                                    class="text"
+                                    required
+                                )
+                        tr
+                            th(class="option")
+                                label PROFESSOR
+                            th
+                                -for (var i=0;i<name.length;i++)
+                                    input(type='radio' name='professor' value=id[i])
+                                    label(class="prof")=name[i]
+                        tr(class="more")
+                            th(class="option")
+                                label SKILLS
+                            th
+                                textarea(name="skills", cols="100", rows="10",placeholder="mention each skill in seperate line")
+                        tr
+                            th(class="option")
+                                label ABOUT
+                            th
+                                textarea(name="about", cols="100", rows="10",placeholder="about the course")
+                        tr 
+                            th(class="option")
+                                label FIELD OF STUDY
+                            th
+                            th
+                                label(class="prof") ENGINEERING
+                            th
+                                input(type='radio' name='type' value="Engineering") 
+                        tr  
+                            th
+                            th
+                            th
+                                label(class="prof") MEDICINE
+                            th
+                                input(type='radio' name='type' value="Medicine")
+                        tr  
+                            th
+                            th
+                            th
+                                label(class="prof") HUMANITIES
+                            th
+                                input(type='radio' name='type' value="Humanities")
+                        tr  
+                            th
+                            th
+                            th
+                                label(class="prof") LAW
+                            th
+                                input(type='radio' name='type' value="Law")
+                        tr  
+                            th
+                            th
+                            th
+                                label(class="prof") LITERATURE
+                            th
+                                input(type='radio' name='type' value="Literature")            
+                        tr                    
+                            th
+                                button(type='submit' class='button') CREATE
+                                                    
+                                                    

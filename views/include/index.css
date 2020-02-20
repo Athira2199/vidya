@@ -1,0 +1,68 @@
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .button{
+      background-color: teal;
+      border-radius: 270px;
+      width: 30px;
+      height: 30px;
+      margin-left: 4px;
+      margin-top: 4px;
+  }
+  .about{
+      margin-left: 47%;
+  }
+ .slogan{
+     margin-left: 11px;
+     color:whitesmoke;
+     
+ }
+ .explore{
+     margin-left: 84%;
+     padding-top:4px;
+     padding-left:4%;
+     padding-right: 4%;
+     padding-bottom: 4px;
+     background-color:black;
+     color:white;
+    border-radius: 7px;
+    width: 130px;
+    height: 40px;
+    font-size: larger;
+    
+ }
+ img{
+     margin-left: 3px;
+     padding-left: 4px;
+     width:320px;
+     height:300px;
+ }
+ .etc{
+    padding-left: 90%;
+    color:rgb(0, 174, 255);
+    font-size: large;
+ }
+ .pillars{
+     margin-left:180px;
+     border-radius: 160px;
+     height:200px;
+     width:200px;
+ }
+ .info_first{
+     margin-left: 250px;
+ }
+ .info{
+     margin-left: 320px;
+ }
+ h2{
+     margin-left: 39%;
+ }

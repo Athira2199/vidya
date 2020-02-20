@@ -1,0 +1,9 @@
+html
+    style
+        include ./include/course_details.css
+    body
+        div
+            label please click on the link to download the required documents.
+        each val in files
+           a(href="download/"+cd+"/"+id+"/"+val)=val
+                

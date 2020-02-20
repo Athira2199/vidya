@@ -1,0 +1,16 @@
+html
+    style
+        include ./include/courses.css
+    body
+        h1 YOUR COURSES
+        if(details==0)
+            div(class="no_course")
+                label no courses
+        else
+            each val in details
+                div(class="container")
+                    label(class="name")=val['name']
+                    label to add files please click on add button
+                    form(action="/instructor/add/"+val['id'] method="post" enctype="multipart/form-data")
+                        input(type="file" name="content")
+                        input(type="submit" value="add")

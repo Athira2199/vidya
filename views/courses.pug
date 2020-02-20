@@ -1,0 +1,12 @@
+html
+    include header.pug
+    style
+        include ./include/courses.css
+    body
+        h1 COURSES
+        -for (var i=0;i<name.length;i++)
+            div(class="container")
+                label=name[i]
+                form(action="/"+sid+"/"+id[i]+"/"+pid[i]+"/add")     
+                    button(type='submit') ADD 
+                

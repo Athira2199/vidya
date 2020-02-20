@@ -1,0 +1,79 @@
+html
+    include header.pug
+    style
+        include ./include/home.css
+
+    body
+        div(class="topnav")
+            a(href="index" class="button") VIDYALAY
+            label(class="welcome") HELLO
+                i #{name} .....
+        div(class="container")
+                div(class="sidenav")
+                        form(action="/"+id+"/courses")     
+                                button(type='submit' class="courses") COURSES
+                        form(action="/"+id+"/mycourses")     
+                                button(type='submit') MY COURSES
+                        form(action="/news/"+name)     
+                                button(type='submit') NEWS
+                        form(action="/faq")     
+                                button(type='submit') FAQ
+                div(class="profile")
+                        label 
+                                u(class="heading") YOUR PROFILE
+                        table
+                                tr
+                                        th
+                                                label NAME 
+                                        th
+                                                label #{name}
+                                tr
+                                        th
+                                                label ID 
+                                        th
+                                                label #{id}
+                                tr
+                                        th
+                                                label MAIL ID
+                                        th
+                                                label #{mail}
+                                tr
+                                        th
+                                                label MOBILE
+                                        th
+                                                label #{mobile}
+                                tr
+                                        th
+                                                label QUALIFICATION
+                                        th
+                                                label #{qualification}
+                                tr
+                                        th
+                                                label ORGANIZATION
+                                        th
+                                                label #{organization}
+                                tr
+                                        th
+                                                label ADDRESS LINE 1
+                                        th
+                                                label #{al1}
+                                tr
+                                        th
+                                                label ADDRESS LINE 2
+                                        th
+                                                label #{al2}
+                                tr
+                                        th
+                                                label CITY
+                                        th
+                                                label #{city}
+                                tr
+                                        th
+                                                label STATE
+                                        th
+                                                label #{state}
+                                tr
+                                        th
+                                                label ZIP
+                                        th
+                                                label #{zip}
