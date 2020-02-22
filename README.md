@@ -5,18 +5,22 @@ This project consists of three users:
 •	Student
 •	Professor
 ```
+```
 The admin has the following functionalities:
 •	He can add a course
 •	He can add a student
 •	He can add a professor
 •	He can also add and delete announcements
+```
+```
 The student has the following functionalities:
 •	In the student home page each student can view his/her profile details
 •	In the side bar four options are given
-	One option is to view all the general courses. The student can add courses also using this page.
-	Second is an option for the student to view in the courses already enrolled by him/her. Here the student also gets access to download the resources pertaining to the particular course he or she has enrolled to.
-	Thirdly the student can view the announcements that have been uploaded by the admin.
-	Fourthly the student can also access the FAQ section where some pre-defined questions and answers are being provided.
+1.One option is to view all the general courses. The student can add courses also using this page.
+2.Second is an option for the student to view in the courses already enrolled by him/her. Here the student also gets access to download the resources pertaining to the particular course he or she has enrolled to.
+3.Thirdly the student can view the announcements that have been uploaded by the admin.
+4.Fourthly the student can also access the FAQ section where some pre-defined questions and answers are being provided.
+ ```
 The professor has the following functionalities:
 •	In the professor home page each professor can view his/her profile details.
 •	In the side bar four option are given
