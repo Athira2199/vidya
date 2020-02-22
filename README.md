@@ -51,7 +51,8 @@ This file helps us to read , write and update various json files as and when req
 4.JSON files are also used for information retreival.
 ```
 ```
-This project has made use of promises for sql queries.
-fs module is used for file reading.
-formidable module is used to retrieve the uploaded files through forms.
+This project has made use of 
+1.promises for sql queries.
+2.fs module is used for file reading.
+3.formidable module is used to retrieve the uploaded files through forms.
 ```
