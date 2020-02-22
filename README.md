@@ -1,5 +1,5 @@
 # vidya
-This project consists of three users:
+###This project consists of three users:
 •	Admin
 •	Student
 •	Professor
