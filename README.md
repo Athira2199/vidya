@@ -1,4 +1,5 @@
-# vidya
+# Project Title
+##vidyalay
 ```
 This project consists of three users:
 •	Admin
