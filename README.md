@@ -1,8 +1,10 @@
 # vidya
-###This project consists of three users:
+```
+This project consists of three users:
 •	Admin
 •	Student
 •	Professor
+```
 The admin has the following functionalities:
 •	He can add a course
 •	He can add a student
